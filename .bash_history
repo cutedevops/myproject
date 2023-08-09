@@ -44,3 +44,24 @@ git log --online -n 2
 git log --oneline -n 2
 git log --help
 clear
+git log --oneline
+touch 1.java
+git add .
+git commit -m "new feat1"
+touch hello.java
+git add .
+git commit -m "new feat"
+git log --oneline
+git tag -a "v1.0" cfa4c64 -m "release v1.0"
+git log --oneline
+git tag -a "v1.5" 46fa34e -m "release v1.5"
+git log --oneline
+ls
+git reset --hard 1d4ad53
+git log --oneline
+git -d tag
+git tag -d v1.0
+git log --oneline
+git tag -d v1.5
+git log --oneline
+clear
