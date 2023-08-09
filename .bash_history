@@ -10,3 +10,4 @@ git status
 git add.
 clear
 sudo su -
+ls -l
