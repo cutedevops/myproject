@@ -65,3 +65,37 @@ git log --oneline
 git tag -d v1.5
 git log --oneline
 clear
+touch today.java
+git add .
+git commit -m 
+git commit -m "today"
+git push -u origin main
+git pull
+git branch'
+git branch
+
+git branch'
+git branch
+clear
+git branch
+git pull
+git fetch origin featxy:featxy
+git branch
+git switch featxy
+git branch
+git log --oneline
+touch featx.java
+git add .
+git commit -m "featx"
+git push -u origin featxy
+git log --oneline
+git fetch origin defect:defect
+git branch
+git switch defect
+git branch
+touch defect.java
+git add .
+git commit -m "defect"
+git log --oneline
+git push -u origin defect
+git branch
